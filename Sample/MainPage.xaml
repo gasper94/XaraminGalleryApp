@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Sample.MainPage">
+
+
+     <StackLayout Margin="20,35,20,20">
+            <Label Text="Pick a car photo"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+            <Button Text="Pick Photo"
+                    Clicked="OnPickPhotoButtonClicked" />
+            <Image x:Name="image"  HeightRequest="300"/>
+             <Button
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Text="Checkout my gallery"
+            Clicked="OnNextPageButtonClicked"></Button>
+
+         <!--<ListView ItemsSource="{Binding Cars}"
+          HasUnevenRows="true"
+          VerticalScrollBarVisibility="Never"
+          SeparatorVisibility="None"
+          ItemTapped="ItemTapped"
+          >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <Grid Padding="10,10,20,10">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            
+                            <Image Grid.RowSpan="2"
+                                   Source="{Binding ImageUrl}"
+                                   Aspect="AspectFill"
+                                   HeightRequest="250"
+                                   WidthRequest="400"
+                                   
+                                   />
+                            <Label Grid.Column="0"
+                                   Text="{Binding Name}"
+                                   FontAttributes="Bold"
+                                    FontSize="25"
+                                   TextColor="Black"
+                                  
+                                   />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+
+        </StackLayout>
+
+    
+    <!--<Button Clicked="Button_Clicked" Text="Pick Image!" />-->
+
+
+
+    <!--BAD-->
+
+    <!--<ScrollView>
+    <StackLayout Margin="20,35,20,20">
+        
+         <Label Text="Image Gallersy"
+                 TextColor="Blue"
+                 FontAttributes="Italic"
+                 FontSize="22"
+               HorizontalOptions="Center" />
+          <Image Source="car.jpg"
+               HeightRequest="300" />
+       
+         <Image Source="car.jpg"
+               HeightRequest="300" />
+         <Image Source="car.jpg"
+               HeightRequest="300" />
+           <Image Source="car.jpg"
+               HeightRequest="300" />
+           <Image Source="car.jpg"
+               HeightRequest="300" />
+           <Image Source="car.jpg"
+               HeightRequest="300" />
+           <Image Source="car.jpg"
+               HeightRequest="300" />
+    </StackLayout>
+    </ScrollView>-->
+
+    <!--<ScrollView>
+    <Grid Margin="20,50,20,20">
+
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="0.5*" />
+        <ColumnDefinition Width="0.5*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="150" />
+        <RowDefinition Height="150" />
+    </Grid.RowDefinitions>
+          
+        <Image Grid.Column="0" Grid.Row="0" Source="car.jpg" HeightRequest="400" />
+        <Image Grid.Column="0" Grid.Row="1" Source="car.jpg" HeightRequest="400" />
+        <Image Grid.Column="0" Grid.Row="2" Source="car.jpg" HeightRequest="400" />
+        <Image Grid.Column="0" Grid.Row="3" Source="car.jpg" HeightRequest="400" />
+
+
+        ROWS
+        <Image Grid.Column="1" Grid.Row="0" Source="car.jpg" HeightRequest="400" />
+        <Image Grid.Column="1" Grid.Row="1" Source="car.jpg" HeightRequest="400" />
+        <Image Grid.Column="1" Grid.Row="2" Source="car.jpg" HeightRequest="400" />
+        <Image Grid.Column="1" Grid.Row="3" Source="car.jpg" HeightRequest="400" />
+        <Image Grid.Column="1" Source="car.jpg" HeightRequest="300" />
+        <Image Grid.Row="1" Source="car.jpg" HeightRequest="300" />
+        <Image Grid.Column="1" Grid.Row="1" Source="car.jpg" HeightRequest="300" />
+        <Image Grid.Column="0" Grid.Row="2" Source="car.jpg" HeightRequest="300" />
+
+
+   
+</Grid>
+        </ScrollView>-->
+</ContentPage>

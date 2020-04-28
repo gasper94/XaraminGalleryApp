@@ -1,0 +1,17 @@
+/Users/ulisesmartinez/Projects/Sample/Sample/bin/Debug/netstandard2.0/Sample.deps.json
+/Users/ulisesmartinez/Projects/Sample/Sample/bin/Debug/netstandard2.0/Sample.dll
+/Users/ulisesmartinez/Projects/Sample/Sample/bin/Debug/netstandard2.0/ref/Sample.dll
+/Users/ulisesmartinez/Projects/Sample/Sample/bin/Debug/netstandard2.0/Sample.pdb
+/Users/ulisesmartinez/Projects/Sample/Sample/bin/Debug/netstandard2.0/System.Drawing.Common.dll
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/Details.xaml.g.cs
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/MyPage.xaml.g.cs
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/Sample.csproj.CoreCompileInputs.cache
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/Sample.AssemblyInfoInputs.cache
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/Sample.AssemblyInfo.cs
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/Sample.csproj.CopyComplete
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/Sample.dll
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/ref/Sample.dll
+/Users/ulisesmartinez/Projects/Sample/Sample/obj/Debug/netstandard2.0/Sample.pdb

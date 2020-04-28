@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Sample.MyPage">
+   <!--<ScrollView>
+    <StackLayout Margin="20,35,20,20">
+         <Label Text="Car Gallerys"
+                 FontAttributes="Italic"
+                 FontSize="22"
+               HorizontalOptions="Center" />
+        <Label Text="Blue Car"
+               Margin="20, 20, 0, 0"
+               />
+        <ListView ItemsSource="{Binding Cars}" />
+
+    <ListView/>
+        
+
+         
+        <Image Source="car.jpg" />
+        <ImageButton
+                    Source="car.jpg"
+                     HeightRequest="250"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="ImageClicked" />
+        
+        <Label x:Name="CarName" Margin="20, 20, 0, 0"/>
+        <ImageButton Source="car.jpg"
+                     HeightRequest="250"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="ImageClicked" />
+       
+        <ImageButton Source="car.jpg"
+                      HeightRequest="250"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="ImageClicked" />
+        <ImageButton Source="car.jpg"
+                     HeightRequest="250"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="ImageClicked" />
+        <ImageButton Source="car.jpg"
+                      HeightRequest="250"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="ImageClicked" />
+         
+          
+    </StackLayout>
+    </ScrollView>-->
+
+
+    <!--LIST OPTIONS-->
+    <!--ItemSelected="OnListViewItemSelected"
+          ItemTapped="OnListViewItemTapped"
+             -->
+     
+    <ListView ItemsSource="{Binding Cars}"
+          HasUnevenRows="true"
+          VerticalScrollBarVisibility="Never"
+          SeparatorVisibility="None"
+          ItemTapped="ItemTapped"
+          >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <Grid Padding="10,10,20,10">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            
+                            <Image Grid.RowSpan="2"
+                                   Source="{Binding ImageUrl}"
+                                   Aspect="AspectFill"
+                                   HeightRequest="250"
+                                   WidthRequest="400"
+                                   
+                                   />
+                            <Label Grid.Column="0"
+                                   Text="{Binding Name}"
+                                   FontAttributes="Bold"
+                                    FontSize="25"
+                                   TextColor="Black"
+                                  
+                                   />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+</ContentPage>
